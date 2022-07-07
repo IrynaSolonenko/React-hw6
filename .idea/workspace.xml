@@ -107,6 +107,9 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f7913bae515a14445f64d01e7a77339b.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fc0a9fb942f08af5009f9657a90d13c0.json" beforeDir="false" />
     </list>
+=======
+    <list default="true" id="2b127f85-3dc0-4335-982a-ca9bdc77fbb7" name="Changes" comment="hw6" />
+>>>>>>> origin/main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,10 +194,14 @@
       <workItem from="1656174790224" duration="26000" />
       <workItem from="1657095417168" duration="11204000" />
       <workItem from="1657189506480" duration="297000" />
+<<<<<<< HEAD
       <workItem from="1657191937096" duration="1279000" />
       <workItem from="1657193594964" duration="36000" />
       <workItem from="1657193632333" duration="182000" />
       <workItem from="1657193924652" duration="266000" />
+=======
+      <workItem from="1657191937096" duration="1134000" />
+>>>>>>> origin/main
     </task>
     <task id="LOCAL-00001" summary="hw6">
       <created>1657192228874</created>
@@ -203,6 +210,7 @@
       <option name="project" value="LOCAL" />
       <updated>1657192228874</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00002" summary="hw6">
       <created>1657193529267</created>
       <option name="number" value="00002" />
@@ -211,6 +219,9 @@
       <updated>1657193529267</updated>
     </task>
     <option name="localTasksCounter" value="3" />
+=======
+    <option name="localTasksCounter" value="2" />
+>>>>>>> origin/main
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
