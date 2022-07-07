@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.App {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	font-family: 'Inter', sans-serif;
+}
+
+#root {
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 90%;
+	height: 100%;
+	margin-top: 30px;
+}
+
+.container a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.container a {
+	text-decoration: underline;
+	color: black;
+}
+
+.my-header h2 {
+	margin: 0;
+	font-size: 24px;
+}
+
+.my-header p {
+	font-size: 12px;
+	margin: 0;
+}
+
+.search {
+	width: 100%;
+	margin-top: 62px;
+	background-color: #E8E8E8;
+	border-radius: 15px;
+	border: 1px solid black;
+	color: #474747;
+	margin-bottom: 25px;
+	padding-left: 10px;
+}
+
+.contacts-container {
+	width: 38%;
+}
+
+.contact_item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	border-radius: 15px;
+	background-color: #D9D9D9;
+	margin-top: 10px;
+}
+
+.contact_actions {
+	display: flex;
+	margin-left: auto;
+	flex-direction: row;
+	margin-right: 20px;
+}
+
+.contact_item span {
+	width: 70px;
+	height: 50px;
+	background-color: #F3F2F2;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+.contact_actions button {
+	border: none;
+	background-color: inherit;
+	cursor: pointer;
+}
+
+.contact_info {
+	width: 400px;
+}
+
+.contact_info div {
+	display: inline-block;
+	font-size: 20px;
+}
+
+.contact_info p {
+	font-size: 12px;
+}
+
+.my-dialog{
+	position: fixed; /* фиксированное положение */
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5); /* цвет фона */
+	z-index: 1050;
+	opacity: 0; /* по умолчанию модальное окно прозрачно */
+	-webkit-transition: opacity 200ms ease-in;
+	-moz-transition: opacity 200ms ease-in;
+	transition: opacity 200ms ease-in; /* анимация перехода */
+	pointer-events: none; /* элемент невидим для событий мыши */
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.my-dialog_visible {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.dialog_content {
+	position: relative;
+	width: 34%;
+	height: 26%;
+	margin: 30px auto;
+	background-color: #EFEFEF;
+	display: flex;
+	flex-direction: column;
+}
+
+.dialog_header {
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 0 15px;
+	height: 15%;
+	background-color: #B7B7B7;
+}
+
+.dialog_header p {
+	cursor: pointer;
+}
+
+.dialog_body {
+	height: 85%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 13px;
+}
+
+.dialog_body span {
+	width: 100px;
+	height: 100px;
+	background-color: #D9D9D9;
+	border-radius: 50%;
+	margin-top: 31px;
+}
+
+.dialog_actions {
+	display: flex;
+	width: 60%;
+	flex-direction: column;
+}
+
+.dialog_actions input {
+	border-radius: 10px;
+	border: none;
+	font-size: 16px;
+	padding-left: 10px;
+	height: 30px;
+}
+
+.dialog_actions label {
+	font-size: 10px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.dialog_actions button {
+	align-self: end;
+	width: 113px;
+	height: 30px;
+	border-radius: 10px;
+	border: none;
+	background-color: #519DD3;
+	margin-top: 26px;
+	margin-bottom: 20px;
+	cursor: pointer;;
+}
+
