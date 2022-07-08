@@ -16,37 +16,37 @@ const ContactsBook = () => {
 			id: 2,
 			name: 'Maria',
 			surname: 'Orlova',
-			phone: '+38 (123) 123 45 67'
+			phone: '+38 (163) 123 45 67'
 		},
 		{
 			id: 3,
 			name: 'Iryna',
 			surname: 'Petrich',
-			phone: '+38 (123) 123 45 67'
+			phone: '+38 (123) 163 45 67'
 		},
 		{
 			id: 4,
 			name: 'Olga',
 			surname: 'Baritska',
-			phone: '+38 (123) 123 45 67'
+			phone: '+38 (123) 123 46 67'
 		},
 		{
 			id: 4,
 			name: 'Olga',
 			surname: 'Marirchko',
-			phone: '+38 (123) 123 45 67'
+			phone: '+38 (123) 123 45 66'
 		},
 		{
 			id: 4,
 			name: 'Svetlana',
 			surname: 'Prihodko',
-			phone: '+38 (123) 123 45 67'
+			phone: '+38 (323) 323 45 67'
 		},
 		{
 			id: 4,
 			name: 'Alex',
 			surname: 'Manson',
-			phone: '+38 (123) 123 45 67'
+			phone: '+38 (123) 123 43 67'
 		}
 	])
 
@@ -70,6 +70,10 @@ const ContactsBook = () => {
 	return (
 		<div className={'container'}>
 			<MyHeader/>
+			<input
+				type={'text'}
+				onChange={()=>}
+			></input>
 			<ContactsList
 				contacts={searchedContacts}
 				handleSearch={handleSearch}
